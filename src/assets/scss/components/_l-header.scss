@@ -1,0 +1,24 @@
+.l-header {
+  padding: 30px 0;
+  background-color: $bg-color;
+}
+
+.logo {
+  display: inline-flex;
+  align-items: center;
+  padding-left: 59px;
+  height: 37px;
+  background: url(../images/logo.png) no-repeat center left;
+  font-size: 30px;
+  font-family: LatoBold;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: $accent-text-color;
+}
+
+@media only screen and (max-width: 479px) {
+  .logo {
+    padding-left: 44px;
+    font-size: 25px;
+  }
+}

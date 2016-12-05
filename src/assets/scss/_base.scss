@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  // outline: 1px solid red;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+}
+
+img {
+  max-width: 100%;
+}
+
+input, textarea {
+  &:focus {
+    outline: none;
+  }
+}
+
+.l-container {
+  margin: 0 auto;
+  padding: $container-padding;
+  max-width: $container-max-width;
+}
+
+.icon {
+  display: inline-block;
+}
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}

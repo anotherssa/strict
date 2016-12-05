@@ -1,0 +1,4 @@
+@import "bourbon";
+
+@include font-face("LatoRegular", "../fonts/Lato/LatoRegular/LatoRegular", $file-formats: woff ttf);
+@include font-face("LatoBold", "../fonts/Lato/LatoBold/LatoBold", bold, $file-formats: woff ttf);

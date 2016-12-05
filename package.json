@@ -1,0 +1,27 @@
+{
+  "name": "strict",
+  "version": "1.0.0",
+  "description": "strict theme",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "anotherssa",
+  "license": "ISC",
+  "devDependencies": {
+    "bourbon": "^4.2.7",
+    "browser-sync": "^2.18.2",
+    "gulp": "^3.9.1",
+    "gulp-file-include": "^1.0.0",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-sass": "^2.3.2",
+    "gulp.spritesmith": "^6.2.1",
+    "merge-stream": "^1.0.1",
+    "vinyl-buffer": "^1.0.0",
+    "webpack-stream": "^3.2.0"
+  },
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "magnific-popup": "^1.1.0"
+  }
+}
